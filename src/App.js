@@ -66,7 +66,7 @@ function App() {
             </nav>
 
             {/* MAIN CONTAINER */}
-            <main>
+            <main style={{textAlign: 'center'}}>
                 {/* TITLE */}
                 <h1>{darkMode ? TEXT_MODE_MAPPER[EMode.DARK_MODE] : TEXT_MODE_MAPPER[EMode.LIGHT_MODE]}</h1>
 
@@ -74,7 +74,7 @@ function App() {
                 <h2>Use the toogle to see magic</h2>
 
                 {/* FUN IMAGE */}
-                <img style={{width: '100%', marginTop: 10}} src={darkMode ? DarkFunImage : LightFunImage} />
+                <img style={{width: '70%', marginTop: 10}} src={darkMode ? DarkFunImage : LightFunImage}/>
 
             </main>
 
